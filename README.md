@@ -1,2 +1,2 @@
 # OpenAPI
-Open API for API messages that are described by Json Schema built for Deno Typescript
+Open API for for Deno Typescript API messages that are described by Json Schema
