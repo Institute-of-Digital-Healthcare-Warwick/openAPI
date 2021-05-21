@@ -60,7 +60,7 @@ import { IServer } from "./IServer.ts";
 	/**
 	 * The list of possible responses as they are returned from executing this operation.
 	 */
-	responses?: IResponse;
+	responses?: {[key: string]: IResponse};
 
 
 	/**
@@ -78,11 +78,11 @@ import { IServer } from "./IServer.ts";
 	/**
 	 * Each name MUST correspond to a security scheme which is declared in the Security Schemes under the Components Object. If the security scheme is of type "oauth2" or "openIdConnect", then the value is a list of scope names required for the execution, and the list MAY be empty if authorization does not require a specified scope. For other security scheme types, the array MAY contain a list of role names which are required for the execution, but are not otherwise defined or exchanged in-band.
 	 */
-	security: {[key:string]: string};
+	security?: {[key:string]: string};
 
 
 	/**
 	 * An alternative server array to service this operation. If an alternative server object is specified at the Path Item Object or Root level, it will be overridden by this value.
 	 */
-	servers: IServer[];
+	servers?: IServer[];
 }
