@@ -2,6 +2,7 @@ import { IJsonSchema } from "./IJsonSchema.ts";
 import { IReference } from "./IReference.ts";
 import { IExample } from "./IExample.ts";
 import { IEncoding } from "./IEncoding.ts";
+import { IJsonSchemaRef } from "./IJsonSchemaRef.ts";
 
 
 /**
@@ -15,7 +16,7 @@ export interface IMediaType {
 	/**
 	 * The schema defining the content of the request, response, or parameter.
 	 */
-	schema?: IJsonSchema;
+	schema?: IJsonSchema | IJsonSchemaRef;
 	
 
 	/**

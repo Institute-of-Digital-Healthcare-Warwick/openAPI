@@ -1,3 +1,6 @@
+import { IJsonSchemaRef } from "./IJsonSchemaRef.ts";
+
+
 /**
  * Open API Reference object
  * 
@@ -5,7 +8,7 @@
  * 
  * @author Ashley Peake, Institute of Digital Healthcare, WMG
  */
-export interface IReference {
+export interface IReference extends IJsonSchemaRef {
 	/**
 	 * The reference identifier. This MUST be in the form of a URI.
 	 */
