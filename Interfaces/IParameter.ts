@@ -2,6 +2,7 @@ import { IJsonSchema } from "./IJsonSchema.ts";
 import { IReference } from "./IReference.ts";
 import { IExample } from "./IExample.ts";
 import { IMediaType } from "./IMediaType.ts";
+import { ParameterIn } from "../Types/ParameterIn.ts";
 
 
 /**
@@ -24,7 +25,7 @@ For all other cases, the name corresponds to the parameter name used by the in p
 	/**
 	 * The location of the parameter. Possible values are "query", "header", "path" or "cookie".
 	 */
-	in: string;
+	in: ParameterIn;
 
 
 	/**

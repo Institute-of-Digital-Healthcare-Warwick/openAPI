@@ -1,3 +1,4 @@
+import { ParameterIn } from "../Types/ParameterIn.ts";
 import { IOAuthFlows } from "./IOAuthFlows.ts";
 
 /**
@@ -32,7 +33,7 @@ import { IOAuthFlows } from "./IOAuthFlows.ts";
 	/**
 	 * The location of the API key. Valid values are "query", "header" or "cookie".
 	 */
-	in: string;
+	in: ParameterIn;
 
 
 	
