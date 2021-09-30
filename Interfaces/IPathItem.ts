@@ -1,7 +1,4 @@
-import { IServer } from "./IServer.ts";
-import { IOperation } from "./IOperation.ts";
-import { IReference } from "./IReference.ts";
-import { IParameter } from "./IParameter.ts";
+import { IOperation, IParameter, IReference, IServer } from "../mod.ts";
 
 
 /**

@@ -1,9 +1,4 @@
-import { IJsonSchema } from "./IJsonSchema.ts";
-import { IReference } from "./IReference.ts";
-import { IExample } from "./IExample.ts";
-import { IMediaType } from "./IMediaType.ts";
-import { ParameterIn } from "../Types/ParameterIn.ts";
-
+import { IExample, IJsonSchema, IMediaType, IReference, ParameterIn } from "../mod.ts";
 
 /**
  * Open API Parameter object

@@ -1,5 +1,4 @@
-import { IContact } from "./IContact.ts";
-import { ILicense } from "./ILicense.ts";
+import { IContact, ILicense } from "../mod.ts";
 
 
 /**

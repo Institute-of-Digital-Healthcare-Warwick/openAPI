@@ -1,5 +1,4 @@
-import { ParameterIn } from "../Types/ParameterIn.ts";
-import { IOAuthFlows } from "./IOAuthFlows.ts";
+import { IOAuthFlows, ParameterIn } from "../mod.ts";
 
 /**
  * Open API Security Schema object

@@ -1,8 +1,4 @@
-import { IJsonSchema } from "./IJsonSchema.ts";
-import { IReference } from "./IReference.ts";
-import { IExample } from "./IExample.ts";
-import { IEncoding } from "./IEncoding.ts";
-import { IJsonSchemaRef } from "./IJsonSchemaRef.ts";
+import { IEncoding, IExample, IJsonSchema, IJsonSchemaRef, IReference } from "../mod.ts";
 
 
 /**

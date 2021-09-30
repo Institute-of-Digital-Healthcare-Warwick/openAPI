@@ -1,5 +1,4 @@
-import { IReference } from "./IReference.ts";
-import { IHeader } from "./IHeader.ts";
+import { IHeader, IReference } from "../mod.ts";
 
 
 /**

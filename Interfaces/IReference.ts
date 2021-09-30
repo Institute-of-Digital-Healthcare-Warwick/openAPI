@@ -1,4 +1,4 @@
-import { IJsonSchemaRef } from "./IJsonSchemaRef.ts";
+import { IJsonSchemaRef } from "../mod.ts";
 
 
 /**

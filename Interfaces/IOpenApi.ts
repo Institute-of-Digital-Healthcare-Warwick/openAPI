@@ -1,10 +1,4 @@
-import { IReference } from "./IReference.ts";
-import { IComponents } from "./IComponents.ts";
-import { IExternalDocumentation } from "./IExternalDocumentation.ts";
-import { IInfo } from "./IInfo.ts";
-import { IPathItem } from "./IPathItem.ts";
-import { IServer } from "./IServer.ts";
-import { ITag } from "./ITag.ts";
+import { IComponents, IExternalDocumentation, IInfo, IPathItem, IReference, IServer, ITag } from "../mod.ts";
 
 
 /**

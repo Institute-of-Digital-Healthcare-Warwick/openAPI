@@ -1,7 +1,4 @@
-import { IReference } from "./IReference.ts";
-import { IHeader } from "./IHeader.ts";
-import { ILink } from "./ILink.ts";
-import { IMediaType } from "./IMediaType.ts";
+import { IHeader, ILink, IMediaType, IReference } from "../mod.ts";
 
 
 /**

@@ -1,4 +1,4 @@
-import { IServerVariable } from "./IServerVariable.ts";
+import { IServerVariable } from "../mod.ts";
 
 
 /**

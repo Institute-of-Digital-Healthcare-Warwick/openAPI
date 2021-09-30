@@ -1,4 +1,4 @@
-import { IOAuthFlow } from "./IOAuthFlow.ts";
+import { IOAuthFlow } from "../mod.ts";
 
 
 /**

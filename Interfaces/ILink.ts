@@ -1,4 +1,4 @@
-import { IServer } from "./IServer.ts";
+import { IServer } from "../mod.ts";
 
 
 /**

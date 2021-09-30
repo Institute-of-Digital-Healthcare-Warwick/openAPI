@@ -1,13 +1,4 @@
-import { IJsonSchema } from "./IJsonSchema.ts";
-import { IReference } from "./IReference.ts";
-import { IExample } from "./IExample.ts";
-import { IHeader } from "./IHeader.ts";
-import { ILink } from "./ILink.ts";
-import { IParameter } from "./IParameter.ts";
-import { IPathItem } from "./IPathItem.ts";
-import { IRequestBody } from "./IRequestBody.ts";
-import { IResponse } from "./IResponse.ts";
-import { ISecuritySchema } from "./ISecuritySchema.ts";
+import { IExample, IHeader, IJsonSchema, ILink, IParameter, IPathItem, IReference, IRequestBody, IResponse, ISecuritySchema } from "../mod.ts";
 
 
 /**

@@ -1,4 +1,4 @@
-import { IJsonSchema } from "./IJsonSchema.ts";
+import { IJsonSchema } from "../mod.ts";
 
 
 /**

@@ -1,10 +1,4 @@
-import { IReference } from "./IReference.ts";
-import { IExternalDocumentation } from "./IExternalDocumentation.ts";
-import { IParameter } from "./IParameter.ts";
-import { IRequestBody } from "./IRequestBody.ts";
-import { IResponse } from "./IResponse.ts";
-import { IPathItem } from "./IPathItem.ts";
-import { IServer } from "./IServer.ts";
+import { IExternalDocumentation, IParameter, IPathItem, IReference, IRequestBody, IResponse, IServer } from "../mod.ts";
 
 
 /**

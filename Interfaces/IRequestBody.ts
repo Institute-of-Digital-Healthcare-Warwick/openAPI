@@ -1,4 +1,4 @@
-import { IMediaType } from "./IMediaType.ts";
+import { IMediaType } from "../mod.ts";
 
 
 /**
